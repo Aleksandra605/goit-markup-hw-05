@@ -18,9 +18,9 @@
       <a href="" class="logo"><span class="logo-web">Web</span>Studio</a>
       <nav class="nav">
         <ul class="site-nav">
-          <li class="item"><a href="">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" target="_blank">Портфолио</a></li>
-          <li class="item"><a href="#contacts">Контакты</a></li>
+          <li class="item"><a href="" class="line">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="line" target="_blank">Портфолио</a></li>
+          <li class="item"><a href="#contacts" class="line">Контакты</a></li>
         </ul>
       </nav>
       <ul class="mailtel-nav">
@@ -48,7 +48,7 @@
           для вашего бизнеса</span>
       </h1>
       <div class="button">
-        <button class="hero-button"><span class="hero-buttext">Заказать услугу</span></button>
+        <button  data-modal-open class="hero-button" type="button"><span class="hero-buttext">Заказать услугу</span></button>
       </div>
     </section>
 
@@ -370,6 +370,13 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="btn-close" data-modal-close>X</button>
+      <p class="message"></p>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
