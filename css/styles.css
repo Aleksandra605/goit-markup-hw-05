@@ -965,7 +965,8 @@ text-align: left;
   bottom: 110px;
   padding: 63px 24px 63px 24px;
   opacity: 0;
-  transition-duration: 250m  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250m;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translatey(+100%); 
 }
 
